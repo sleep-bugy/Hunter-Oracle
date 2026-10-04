@@ -1,0 +1,14 @@
+# System & Temporary logs
+*.log
+/tmp/oracle-a1-*.log
+
+# OCI and SSH credentials (Never commit keys!)
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.oci/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
